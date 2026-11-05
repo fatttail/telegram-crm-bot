@@ -1,7 +1,13 @@
 # TG: Telegram GTM inside Obsidian
 
-An Obsidian plugin for anyone who does partnerships, BD or go-to-market on Telegram. It works with your
-**own** Telegram account (not a bot), from a sidebar inside Obsidian:
+**Your Telegram, run like a CRM, from Obsidian.** If your deals, partners and investors live in Telegram
+chats, TG turns them into something you can manage: tag every chat by partnership type (Fund, VC,
+Exchange…), see at a glance who's waiting on your reply and which relationships are going cold, message
+a whole category in one go without looking like spam, and let Claude tell you where each conversation
+stands and what to do next.
+
+It works with your **own** Telegram account (not a bot), runs entirely on your computer, and keeps your
+data in your vault. No server, no subscription, no telemetry.
 
 | Page | What it does |
 |---|---|
