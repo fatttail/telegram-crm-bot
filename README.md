@@ -9,6 +9,49 @@ stands and what to do next.
 It works with your **own** Telegram account (not a bot), runs entirely on your computer, and keeps your
 data in your vault. No server, no subscription, no telemetry.
 
+![Dashboard: messages sent, unread notifications grouped by category, who's waiting on you, category health](docs/screenshots/dashboard.png)
+
+<sub>All screenshots use a made-up workspace ("Acme Labs" and invented funds, exchanges and people).</sub>
+
+## What it looks like
+
+**Chats → Send to a category.** Pick a category, tick who gets it, and read Claude's summary of each chat
+(or the conversation itself) before you send one message to all of them.
+
+![Send to a category, with Claude's summary of the selected chat](docs/screenshots/send-to-category.png)
+
+**The conversation next to your draft**, so you see exactly what your message lands under.
+
+![Conversation view with the draft shown as a pending bubble](docs/screenshots/conversation.png)
+
+**Chats → Browse & sort.** Every chat you scan, with unread badges, a category dropdown, ⚡ Follow up,
+and bulk "Set category…" for several chats at once.
+
+![Chats table with categories and bulk actions](docs/screenshots/chats.png)
+
+<details>
+<summary><b>More screenshots</b>: Follow up, Categories, Scan, New group</summary>
+
+**Follow up.** Flag a chat with ⚡; Claude writes where it stands, open threads, next steps and a draft reply.
+
+![Follow up with a Claude summary](docs/screenshots/follow-up.png)
+
+**Categories.** Your partnership types in one table, with one-click common ones and the chats in each.
+
+![Categories table](docs/screenshots/categories.png)
+
+**Scan.** You decide which chats the plugin looks at: words in the group title, plus single groups ticked by hand.
+
+![Scan rules](docs/screenshots/scan.png)
+
+**New group.** Create a group with a photo, a description and people in one go, or add people to an existing one.
+
+![New group form](docs/screenshots/new-group.png)
+
+</details>
+
+## Pages
+
 | Page | What it does |
 |---|---|
 | **Dashboard** | Messages you sent today / this week / this month, unread notifications grouped by category, who's waiting on your reply, median reply time, category coverage, chats going cold |
@@ -79,7 +122,7 @@ More in [SECURITY.md](SECURITY.md).
 ### 1. Get the files
 
 ```bash
-git clone https://github.com/<you>/obsidian-tg-gtm.git
+git clone https://github.com/fatttail/telegram-crm-bot.git
 ```
 
 or **Code → Download ZIP** on GitHub and unzip it.
@@ -97,7 +140,7 @@ or **Code → Download ZIP** on GitHub and unzip it.
 3. Obsidian → **Settings → Community plugins** → turn off *Restricted mode* if it's on → click the refresh
    icon → enable **TG**. A Telegram icon appears in the left ribbon.
 
-> Using [BRAT](https://github.com/TfTHacker/obsidian42-brat)? *BRAT → Add beta plugin* → paste this repo's URL.
+> Using [BRAT](https://github.com/TfTHacker/obsidian42-brat)? *BRAT → Add beta plugin* → paste `https://github.com/fatttail/telegram-crm-bot`.
 > That works once the repo has a GitHub release with those three files attached.
 
 ### 3. Set up the Telegram bridge
