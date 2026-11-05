@@ -1,0 +1,18 @@
+# Your secrets and your Telegram login: never commit these
+bridge/config.py
+*.session
+*.session-journal
+.env
+
+# What the bridge writes (contacts, chat history, dashboard data)
+bridge/exports/
+exports/
+
+# Obsidian plugin settings (can hold categories, summaries and drafts)
+data.json
+
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+node_modules/

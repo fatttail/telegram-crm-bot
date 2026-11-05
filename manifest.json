@@ -1,0 +1,9 @@
+{
+  "id": "tg-gtm",
+  "name": "TG",
+  "version": "1.0.0",
+  "minAppVersion": "1.4.0",
+  "description": "Run your Telegram partnerships from Obsidian: dashboard, categories, bundle messages, Claude summaries, group creation. Uses your own Telegram account through a small local Python bridge.",
+  "author": "jeremie",
+  "isDesktopOnly": true
+}
